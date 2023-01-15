@@ -151,4 +151,7 @@ a:focus {
     width: 324px;
     margin: 20vh auto 0 auto;
   }
+  .card {
+    width: 75%;
+  }
 }
