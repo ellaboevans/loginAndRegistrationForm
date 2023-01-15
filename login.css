@@ -43,8 +43,8 @@ body {
   font-size: 1rem;
 }
 
-#form button:focus{
-  outline: none
+#form button:focus {
+  outline: none;
 }
 
 label {
@@ -96,8 +96,8 @@ a {
   font-style: italic;
 }
 
-a:focus{
-  outline: none
+a:focus {
+  outline: none;
 }
 
 .modal {
@@ -144,4 +144,11 @@ a:focus{
 .card p {
   color: white;
   font-size: 16px;
+}
+
+@media (max-width: 559px) {
+  #form {
+    width: 324px;
+    margin: 20vh auto 0 auto;
+  }
 }

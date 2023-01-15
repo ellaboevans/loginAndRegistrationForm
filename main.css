@@ -143,3 +143,11 @@ a {
   color: white;
   font-size: 16px;
 }
+
+@media (max-width: 559px) {
+  #form {
+    width: 324px;
+    margin: 10vh auto 0 auto;
+  }
+}
+
