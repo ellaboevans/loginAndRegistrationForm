@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/" id="form">
+        <h1 class="form-heading">Login Form</h1>
+        <div class="divider"></div>
+
+        <!-- <div class="input-control">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+          <div class="error"></div>
+        </div> -->
+
+        <div class="input-control">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <div class="error"></div>
+        </div>
+
+        <!-- <div class="input-control">
+          <label for="confrimpassword">Confirm Password:</label>
+          <input type="password" id="confirmpassword" name="confirmpassword" />
+          <div class="error"></div>
+        </div> -->
+        <button type="submit">Sign in</button>
+        <div class="login-route">
+          <p>Don't have an account? <a href="./index.html">Register</a></p>
+        </div>
+      </form>
+      <div class="modal show-modal">
+        <div class="backdrop"></div>
+        <div class="card">
+          <h2>Successfully Registered</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, ex.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script defer src="./login.js"></script>
+  </body>
+</html>
