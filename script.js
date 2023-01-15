@@ -4,10 +4,6 @@ const email = document.querySelector("#email");
 const password = document.querySelector("#password");
 const confirmpassword = document.querySelector("#confirmpassword");
 const modal = document.querySelector(".modal");
-console.log(modal);
-
-let firstName = "Evans";
-// alert(`Hello! ${firstName}`);
 
 const setError = (input, message) => {
   const formControl = input.parentElement;
