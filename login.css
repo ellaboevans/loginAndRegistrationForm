@@ -14,7 +14,7 @@ body {
   margin: 20vh auto 0 auto;
   padding: 45px;
   background-color: whitesmoke;
-  border-radius: 4px;
+  border-radius: 14px;
   font-size: 12px;
 }
 
@@ -153,5 +153,6 @@ a:focus {
   }
   .card {
     width: 75%;
+    outline: none;
   }
 }
