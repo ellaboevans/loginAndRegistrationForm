@@ -33,6 +33,7 @@ const isEmail = (email) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  console.log(e)
 
   checkInputs();
 });
