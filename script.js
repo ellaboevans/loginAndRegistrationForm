@@ -71,7 +71,7 @@ function checkInputs() {
 
   if (passwordValue === "") {
     setError(password, "Provide a valid Password");
-  } else if (passwordValue.length < 8) {
+  } else if (passwordValue.length <= 8) {
     setError(password, "Password must be at least 8 characters");
   } else {
     setSuccess(password);
@@ -81,7 +81,7 @@ function checkInputs() {
   if (confirmpasswordValue === "") {
     setError(confirmpassword, "Provide a valid Password");
   } else if (passwordValue !== confirmpasswordValue) {
-    setError(confirmpassword, "Passwords does not match");
+    setError(confirmpassword, "Passwords do not match");
   } else {
     setSuccess(confirmpassword);
     showModal();
